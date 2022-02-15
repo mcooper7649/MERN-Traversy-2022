@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend"
   },
   "author": "michael cooper",
   "license": "ISC",
@@ -19,6 +20,8 @@
     "mongoose": "^6.2.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "@babel/core": "7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3"
   }
 }
