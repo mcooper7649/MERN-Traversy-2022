@@ -16,6 +16,8 @@ This was originally sourced from Brad Traversy's MERN 2022 Course
   - MongoDB Cloud Atlas
   - Heroku 
 
+![DB](https://img001.prntscr.com/file/img001/GbPw8YnBTLmbjaeTz_cJ-w.png)
+
 - Backend
   - Uses express with a MongoDB connection (cloud atlas)
     - Express
@@ -29,6 +31,8 @@ This was originally sourced from Brad Traversy's MERN 2022 Course
   - Controllers
     - CRUD operations and logic for goal management (interacts with API)
     - CRUD operations and logic for user management (interacts with API)
+
+![Login-with-Toastify](https://i.gyazo.com/ac779df92d5ab7f7af293b0d43a2d00b.gif)
 
 - Frontend
   - React
