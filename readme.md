@@ -11,7 +11,7 @@ This was originally sourced from Brad Traversy's MERN 2022 Course
 2. DB connection information can be found in backend/config/db.js
 
 
-###About
+### About
 - Hosts
   - MongoDB Cloud Atlas
   - Heroku 
