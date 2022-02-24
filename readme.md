@@ -1,10 +1,10 @@
 ## Readme GoalSetter App
---
 ![GoalSetter](https://img001.prntscr.com/file/img001/E7R8w7UsRJexRrN1vRgGog.png)
 
 This was originally sourced from Brad Traversy's MERN 2022 Course
 
-[Link to Video](https://www.youtube.com/watch?v=UXjMo25Nnvc)
+[Link to Tutorial](https://www.youtube.com/watch?v=UXjMo25Nnvc)
+
 [Live Site](https://goalsetter-redux-dashboard.herokuapp.com/login)
 
 1. npm run dev to run both client and server locally. (Using Concurrently)
@@ -12,7 +12,6 @@ This was originally sourced from Brad Traversy's MERN 2022 Course
 
 
 ###About
---
 - Hosts
   - MongoDB Cloud Atlas
   - Heroku 
@@ -32,3 +31,14 @@ This was originally sourced from Brad Traversy's MERN 2022 Course
     - CRUD operations and logic for user management (interacts with API)
 
 - Frontend
+  - React
+    - Pages
+      - Dashboard
+      - Login
+      - Register
+  - Alerting
+    - Toastify for prompting of errors from backend
+  - Redux for handling the auth/goal slices
+  - Axios is for handling the auth/goal api service requests
+  - Components
+    - Goalform, GoalItem, Header, Spinner
